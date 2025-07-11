@@ -33,6 +33,7 @@ mi-spa-vite/
 ├── /src/
 │   ├── main.js
 │   ├── app.js
+|   ├── auth.js
 │   └── style.css
 └── /public/
     └── imgs/
@@ -80,7 +81,7 @@ npm run dev
 | Usuario | Contraseña |
 |---------|------------|
 | Admin   | 1234       |
-
+| NewUser | *Contraseña*|
 ---
 
 ## 🧪 Scripts Disponibles
@@ -100,14 +101,15 @@ npm run dev
   "users": [
     {
       "id": 1,
-      "name": "Juan Pérez",
-      "email": "juan@example.com",
+      "username": "Admin",
+      "password": "1234",
+      "name": "Tomas Restrepo",
+      "email": "tomas@example.com",
       "phone": "3123456789",
       "enrollNumber": "12345678901234",
-      "dateOfAdmission": "2024-07-01"
+      "dateOfAdmission": "2024-07-01",
+      "role": "admin"
     }
-  ]
-}
 ```
 
 ---
