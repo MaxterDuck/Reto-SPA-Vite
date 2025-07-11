@@ -1,0 +1,14 @@
+{
+  "name": "mi-spa-vite",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite",
+    "server": "json-server --watch db.json --port 3000",
+    "reset": "node reset.js"
+  },
+  "devDependencies": {
+    "connect-history-api-fallback": "^2.0.0",
+    "json-server": "^0.17.0",
+    "vite": "^5.0.0"
+  }
+}

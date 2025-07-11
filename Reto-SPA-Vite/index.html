@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SPA CRUD Vite</title>
+  <link rel="stylesheet" href="/src/style.css" />
+</head>
+<body>
+  <!-- LOGIN -->
+  <div id="login" class="login-screen">
+    <div class="login-box">
+      <h2>Iniciar Sesión</h2>
+      <input type="text" id="loginUser" placeholder="Usuario" />
+      <input type="password" id="loginPass" placeholder="Contraseña" />
+      <button id="btnLogin">Ingresar</button>
+      <p>¿No tienes cuenta? <a href="#" id="linkRegister">Regístrate</a></p>
+    </div>
+  </div>
+
+  <!-- REGISTRO -->
+  <div id="register" class="login-screen" style="display: none;">
+    <div class="login-box">
+      <h2>Registro de Usuario</h2>
+      <input type="text" id="regUsername" placeholder="Usuario" />
+      <input type="password" id="regPassword" placeholder="Contraseña" />
+      <input type="text" id="regName" placeholder="Nombre completo" />
+      <input type="email" id="regEmail" placeholder="Correo electrónico" />
+      <input type="tel" id="regPhone" placeholder="Teléfono" />
+      <input type="text" id="regEnroll" placeholder="Matrícula" />
+      <input type="date" id="regDate" />
+      <button id="btnRegister">Registrar</button>
+      <p>¿Ya tienes cuenta? <a href="#" id="linkBackToLogin">Iniciar sesión</a></p>
+    </div>
+  </div>
+
+  <!-- LAYOUT PRINCIPAL -->
+  <div id="app-layout" style="display: none;">
+    <aside>
+      <h1>CRUD OPERATIONS</h1>
+      <div class="profile">
+        <img src="./imgs/ImgProfille.jpg" alt="Profile" />
+        <p id="sidebarName">Usuario</p>
+        <p class="role" id="sidebarRole">Rol</p>
+      </div>
+      <nav>
+        <ul>
+          <li id="navHome">Home</li>
+          <li id="navUsers">Users</li>
+          <li id="btnLogout">Logout</li>
+        </ul>
+      </nav>
+    </aside>
+    <main id="app"></main>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

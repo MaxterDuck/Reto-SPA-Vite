@@ -1,0 +1,12 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Juan Pérez",
+      "email": "juan@example.com",
+      "phone": "3123456789",
+      "enrollNumber": "12345678901234",
+      "dateOfAdmission": "2024-07-01"
+    }
+  ]
+}

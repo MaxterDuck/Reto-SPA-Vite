@@ -1,0 +1,37 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "Admin",
+      "password": "1234",
+      "name": "Tomas Restrepo",
+      "email": "tomas@example.com",
+      "phone": "3123456789",
+      "enrollNumber": "12345678901234",
+      "dateOfAdmission": "2024-07-01",
+      "role": "admin"
+    },
+    {
+      "name": "Pepe",
+      "email": "Pepe@gmail.com",
+      "phone": "3145033232",
+      "enrollNumber": "21213231231231",
+      "dateOfAdmission": "2025-07-04",
+      "role": "user",
+      "username": "Pepe",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "username": "Lola",
+      "password": "T123",
+      "name": "Lola",
+      "email": "Lola@gmail.com",
+      "phone": "314578965",
+      "enrollNumber": "14789456456",
+      "dateOfAdmission": "2025-06-04",
+      "role": "user",
+      "id": 3
+    }
+  ]
+}
